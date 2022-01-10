@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="SkyrimHomeCalculator.View.WingListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:view="clr-namespace:SkyrimHomeCalculator.View">
+    <ItemsControl ItemsSource="{Binding Items}">
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <view:WingView />
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

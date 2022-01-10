@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="SkyrimHomeCalculator.View.ExteriorListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ItemsControl ItemsSource="{Binding Items}">
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <CheckBox IsChecked="{Binding IsChecked}" Content="{Binding Name}" />
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

@@ -1,0 +1,1219 @@
+<?xml version="1.0"?>
+<MaterialCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RawMaterials>
+    <RawMaterial Name="Amulet of Akatosh" />
+    <RawMaterial Name="Amulet of Arkay" />
+    <RawMaterial Name="Amulet of Dibella" />
+    <RawMaterial Name="Amulet of Julianos" />
+    <RawMaterial Name="Amulet of Kynareth" />
+    <RawMaterial Name="Amulet of Mara" />
+    <RawMaterial Name="Amulet of Stendar" />
+    <RawMaterial Name="Amulet of Talos" />
+    <RawMaterial Name="Amulet of Zenithar" />
+    <RawMaterial Name="Bear Pelt" />
+    <RawMaterial Name="Clay" />
+    <RawMaterial Name="Corundum ore" />
+    <RawMaterial Name="Deer Hide" />
+    <RawMaterial Name="Dragon Bone" />
+    <RawMaterial Name="Dragon Scales" />
+    <RawMaterial Name="Ebony Ingot" />
+    <RawMaterial Name="Flawless Amethyst" />
+    <RawMaterial Name="Flawless Sapphire" />
+    <RawMaterial Name="Glass" />
+    <RawMaterial Name="Goat Hide" />
+    <RawMaterial Name="Goat Horns" />
+    <RawMaterial Name="Gold Ingot" />
+    <RawMaterial Name="Grand Soul Gem (filled with grand soul)" />
+    <RawMaterial Name="Horker Tusk" />
+    <RawMaterial Name="Iron ore" />
+    <RawMaterial Name="Large Antlers" />
+    <RawMaterial Name="Leather Strips" />
+    <RawMaterial Name="Mudcrab Chitin" />
+    <RawMaterial Name="Mudcrab Chitin" />
+    <RawMaterial Name="Not used" />
+    <RawMaterial Name="Orichalcum Ingot" />
+    <RawMaterial Name="Quarried Stone" />
+    <RawMaterial Name="Quicksilver Ingot" />
+    <RawMaterial Name="Refined Malachite" />
+    <RawMaterial Name="Refined Moonstone" />
+    <RawMaterial Name="Sabre Cat Pelt" />
+    <RawMaterial Name="Sabre Cat Snow Pelt" />
+    <RawMaterial Name="Sabre Cat Tooth" />
+    <RawMaterial Name="Sawn Log" />
+    <RawMaterial Name="Silver Ingot" />
+    <RawMaterial Name="Slaughterfish Scales" />
+    <RawMaterial Name="Steel Ingot" />
+    <RawMaterial Name="Straw" />
+    <RawMaterial Name="Vampire Dust" />
+    <RawMaterial Name="Wolf Pelt" />
+  </RawMaterials>
+  <CompoundMaterials>
+    <!--Base-->
+    <CompoundMaterial Name="Blacksmith Forge" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="5" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Corundum Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Corundum ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Door" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Lock" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Hinge" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="0.5" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Iron Fittings" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Iron Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron ore" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Lock" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Corundum Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Nails" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="0.1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+
+    <!--Construction-->
+    <CompoundMaterial Name="Main Hall" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Main Hall - Stage 1: Door" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 2: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 3: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 4: Wall Framing" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 5: First Level Walls" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 6: Second Floor Supports" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 7: Roof Framing" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 8: Second Level Walls" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 9: Roof" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 10: Cellar" Amount="1" />
+        <MaterialUsage MaterialName="Main Hall - Stage 11: Aquarium" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Room - Stage 1: Doors" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 2: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 3: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 4: Wall Supports" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 5: Roof Framing" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 6: Walls" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 7: Roof" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Small House - Stage 1: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 2: Wall Framing" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 3: Walls" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 4: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 5: Roof Framing" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 6: Roof" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 7: Door" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Terrace Room - Stage 1: Doors" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 2: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 3: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 4: Wall Supports" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 5: Roof" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 6: Walls" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Tower - Stage: 1 Door" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 2 Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 3 Floor" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 4 Main Supports" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 5 First Floor Walls" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 6 Second Floor Supports" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 7 Second Floor Walls" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 8 Roof" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 9 Roof Canopy" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 1: Door" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Lock" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 10: Cellar" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="8" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="50" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 11: Aquarium" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="25" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 2: Foundation" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="30" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 3: Floor" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="6" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 4: Wall Framing" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="16" />
+        <MaterialUsage MaterialName="Nails" Amount="20" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 5: First Level Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+        <MaterialUsage MaterialName="Nails" Amount="16" />
+        <MaterialUsage MaterialName="Clay" Amount="8" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 6: Second Floor Supports" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="6" />
+        <MaterialUsage MaterialName="Nails" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 7: Roof Framing" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 8: Second Level Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="12" />
+        <MaterialUsage MaterialName="Clay" Amount="8" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Main Hall - Stage 9: Roof" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="25" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 1: Doors" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Lock" Amount="2" />
+        <MaterialUsage MaterialName="Hinge" Amount="4" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 2: Foundation" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 3: Floor" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 4: Wall Supports" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="8" />
+        <MaterialUsage MaterialName="Nails" Amount="8" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 5: Roof Framing" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 6: Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Clay" Amount="3" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Room - Stage 7: Roof" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="8" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 1: Foundation" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 2: Wall Framing" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="6" />
+        <MaterialUsage MaterialName="Nails" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 3: Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="8" />
+        <MaterialUsage MaterialName="Clay" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 4: Floor" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 5: Roof Framing" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="6" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 6: Roof" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="10" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House - Stage 7: Door" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Lock" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room - Stage 1: Doors" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="3" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+        <MaterialUsage MaterialName="Lock" Amount="3" />
+        <MaterialUsage MaterialName="Hinge" Amount="6" />
+        <MaterialUsage MaterialName="Nails" Amount="6" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room - Stage 2: Foundation" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room - Stage 3: Floor" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room - Stage 4: Wall Supports" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="7" />
+        <MaterialUsage MaterialName="Nails" Amount="8" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room - Stage 5: Roof" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room - Stage 6: Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Clay" Amount="3" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 1 Door" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="3" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+        <MaterialUsage MaterialName="Lock" Amount="3" />
+        <MaterialUsage MaterialName="Hinge" Amount="6" />
+        <MaterialUsage MaterialName="Nails" Amount="6" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 2 Foundation" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="8" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 3 Floor" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 4 Main Supports" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="10" />
+        <MaterialUsage MaterialName="Nails" Amount="10" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 5 First Floor Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Clay" Amount="3" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 6 Second Floor Supports" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+        <MaterialUsage MaterialName="Nails" Amount="12" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 7 Second Floor Walls" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Clay" Amount="6" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 8 Roof" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower - Stage: 9 Roof Canopy" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="6" />
+      </UsedMaterials>
+    </CompoundMaterial>
+
+    <!--Exteroir-->
+    <CompoundMaterial Name="Animal Pen" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Apiary" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Straw" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Armorer Workbench" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Fish Hatchery" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="3" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Garden" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Grindstone" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mill" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Smelter" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="2" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="5" />
+        <MaterialUsage MaterialName="Clay" Amount="6" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Stable" Type="Exteroir">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+        <MaterialUsage MaterialName="Nails" Amount="5" />
+      </UsedMaterials>
+    </CompoundMaterial>
+
+    <!--Interior-->
+    <CompoundMaterial Name="Alchemy Lab" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+        <MaterialUsage MaterialName="Quicksilver Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Arcane Enchanter" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+        <MaterialUsage MaterialName="Refined Moonstone" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Grand Soul Gem (filled with grand soul)" Amount="1" />
+        <MaterialUsage MaterialName="Gold Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Archery Target" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Straw" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Archery Targets (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="5" />
+        <MaterialUsage MaterialName="Straw" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Armor Mannequin" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Armor Mannequin with Cupboard" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+        <MaterialUsage MaterialName="Nails" Amount="5" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="5" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Barrels" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Bench" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Blacksmith Anvil" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Blacksmith's Forge" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="5" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Bookshelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Brazier" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Chair" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Chandelier, Large" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Chandelier, Small" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="2" />
+        <MaterialUsage MaterialName="Goat Horns" Amount="3" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Chest" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Lock" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Chest, Long" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Lock" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Child's Bed" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Leather Strips" Amount="22" />
+        <MaterialUsage MaterialName="Straw" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Child's Chest" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Lock" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Child's Practice Dummy" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Straw" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Coffin (available only for Vampires)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Vampire Dust" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Corner Shelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="3" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Cupboard" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Desk" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Dining Table and Chairs" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="5" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Display Case" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Display Case and Cupboard" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Display Case and Shelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Display Case and Small Wardrobe" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Display Case on Low Table" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Double Bed" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Leather Strips" Amount="4" />
+        <MaterialUsage MaterialName="Straw" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Dresser" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="3" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="End Table" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="End Table (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="End Tables (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Fire place" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Firepit" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Fireplace" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Fish Plaques (3)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Fishing Supplies" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Hanging Rack" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Lamp Stand" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Goat Horns" Amount="3" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Large Fish Tank" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+        <MaterialUsage MaterialName="Clay" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Large Fish Tanks (2) A" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+        <MaterialUsage MaterialName="Clay" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Large Fish Tanks (2) B" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+        <MaterialUsage MaterialName="Clay" Amount="2" />
+        <MaterialUsage MaterialName="Glass" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Large Planter" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Clay" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Large Table with Chest" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Lock" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Low Table" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mead Barrels (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Bear Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Bear Pelt" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Elk Antlers" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Large Antlers" Amount="1" />
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Elk Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Deer Hide" Amount="1" />
+        <MaterialUsage MaterialName="Large Antlers" Amount="1" />
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Goat Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Goat Hide" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Horker Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Horker Tusk" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Mudcrab" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Mudcrab Chitin" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Mudcrab Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Mudcrab Chitin" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Sabre Cat Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Sabre Cat Pelt" Amount="1" />
+        <MaterialUsage MaterialName="Sabre Cat Tooth" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Slaughterfish" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Slaughterfish Scales" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Snowy Sabre Cat Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Sabre Cat Snow Pelt" Amount="1" />
+        <MaterialUsage MaterialName="Sabre Cat Tooth" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Mounted Wolf Head" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+        <MaterialUsage MaterialName="Wolf Pelt" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Night Table" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Night Tables (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Oven" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Clay" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="3" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Round Table" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Round Table and Chairs" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Safe" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Lock" Amount="1" />
+        <MaterialUsage MaterialName="Steel Ingot" Amount="3" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Safe (5)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Lock" Amount="5" />
+        <MaterialUsage MaterialName="Hinge" Amount="5" />
+        <MaterialUsage MaterialName="Steel Ingot" Amount="15" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine Base" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Clay" Amount="2" />
+        <MaterialUsage MaterialName="Quarried Stone" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Akatosh" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Akatosh" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Corundum Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Flawless Amethyst" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Arkay" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Arkay" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Orichalcum Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Silver Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Dibella" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Dibella" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Orichalcum Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Quicksilver Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Julianos" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Julianos" Amount="1" />
+        <MaterialUsage MaterialName="Ebony Ingot" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Kynareth" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Kynareth" Amount="1" />
+        <MaterialUsage MaterialName="Refined Moonstone" Amount="2" />
+        <MaterialUsage MaterialName="Flawless Sapphire" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Mara" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Mara" Amount="1" />
+        <MaterialUsage MaterialName="Refined Malachite" Amount="2" />
+        <MaterialUsage MaterialName="Silver Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Stendar" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Stendar" Amount="1" />
+        <MaterialUsage MaterialName="Steel Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Quicksilver Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Silver Ingot" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Talos" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Talos" Amount="1" />
+        <MaterialUsage MaterialName="Steel Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Dragon Bone" Amount="1" />
+        <MaterialUsage MaterialName="Dragon Scales" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Shrine of Zenithar" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Amulet of Zenithar" Amount="1" />
+        <MaterialUsage MaterialName="Steel Ingot" Amount="1" />
+        <MaterialUsage MaterialName="Gold Ingot" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Single Bed" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Leather Strips" Amount="2" />
+        <MaterialUsage MaterialName="Straw" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small Fish Tanks (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Glass" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small Planter with Cupboard" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Clay" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small Shelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="3" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Square Table" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Square Table and Chairs" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Table with Benches" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Table with Display Cases" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Hinge" Amount="2" />
+        <MaterialUsage MaterialName="Glass" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tall Bookshelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tall Shelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tall Shelf (Actually a large Display Case)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tall Shelf with Display Case" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Glass" Amount="1" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tall Wardrobe" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Hinge" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tanning Rack" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Leather Strips" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Trophy Base, Large" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Clay" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Trophy Base, Small" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quarried Stone" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Clay" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Sconce" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Goat Horns" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Sconce (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Goat Horns" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Sconces (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Goat Horns" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Shelf" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Shelves (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Shelves (3)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wall Shelves (4)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wardrobe, small" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Wardrobe, Small" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Washbasin on Stand" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Nails" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ingot" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Weaopn Racks (4)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="3" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="4" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Weapon Plaque" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Weapon Racks (2)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Weapon Racks (3)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Nails" Amount="4" />
+        <MaterialUsage MaterialName="Sawn Log" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Weapon Racks (5)" Type="Interior">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Sawn Log" Amount="4" />
+        <MaterialUsage MaterialName="Iron Fittings" Amount="5" />
+      </UsedMaterials>
+    </CompoundMaterial>
+  </CompoundMaterials>
+</MaterialCollection>

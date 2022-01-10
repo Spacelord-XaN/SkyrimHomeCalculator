@@ -1,0 +1,648 @@
+<?xml version="1.0"?>
+<HouseBlueprint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Locations>
+    <string>Lake view</string>
+    <string>Heljarchen</string>
+    <string>Windstad</string>
+  </Locations>
+  <Wings>
+	  <WingBlueprint Direction="South">
+		  <RoomBlueprint Name="Not used" />
+		  <RoomBlueprint Name="Small House" MaterialName="Small House">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Dresser" />
+					  <Blueprint MaterialName="End Table" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Double Bed" />
+					  <Blueprint MaterialName="Square Table and Chairs" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Tall Shelf with Display Case" />
+					  <Blueprint MaterialName="Wall Shelves (3)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Firepit" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Entryway" MaterialName="Small House">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Dresser" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Night Tables (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Weapon Racks">
+					  <Blueprint MaterialName="Weapon Racks (2)" />
+					  <Blueprint MaterialName="Weapon Racks (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Mounted Bear Head" />
+					  <Blueprint MaterialName="Mounted Elk Head" />
+					  <Blueprint MaterialName="Mounted Elk Head" />
+					  <Blueprint MaterialName="Mounted Sabre Cat Head" />
+					  <Blueprint MaterialName="Mounted Snowy Sabre Cat Head" />
+					  <Blueprint MaterialName="Mounted Wolf Head" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+	  </WingBlueprint>
+	  <WingBlueprint Direction="Center">
+		  <RoomBlueprint Name="Not used" />
+		  <RoomBlueprint Name="Main Hall" MaterialName="Main Hall">
+			  <Interior>
+				  <BlueprintGroup Name="South Room: Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Tall Wardrobe" />
+					  <Blueprint MaterialName="Wardrobe, Small" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="South Room: Furniture">
+					  <Blueprint MaterialName="Chair" />
+					  <Blueprint MaterialName="Dining Table and Chairs" />
+					  <Blueprint MaterialName="Display Case" />
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Square Table" />
+					  <Blueprint MaterialName="Square Table" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="South Room: Weapon Racks">
+					  <Blueprint MaterialName="Armor Mannequin" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="South Room: Shelves">
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (4)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="South Room: Miscellaneous">
+					  <Blueprint MaterialName="Alchemy Lab" />
+					  <Blueprint MaterialName="Arcane Enchanter" />
+					  <Blueprint MaterialName="Chandelier, Large" />
+					  <Blueprint MaterialName="Fireplace" />
+					  <Blueprint MaterialName="Mounted Elk Head" />
+					  <Blueprint MaterialName="Mounted Goat Head" />
+					  <Blueprint MaterialName="Mounted Horker Head" />
+					  <Blueprint MaterialName="Mounted Mudcrab Head" />
+					  <Blueprint MaterialName="Mounted Slaughterfish" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, First Level: Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Desk" />
+					  <Blueprint MaterialName="Display Case and Small Wardrobe" />
+					  <Blueprint MaterialName="Safe" />
+					  <Blueprint MaterialName="Wardrobe, Small" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, First Level: Furniture">
+					  <Blueprint MaterialName="Round Table and Chairs" />
+					  <Blueprint MaterialName="Square Table and Chairs" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, First Level: Weapon Racks">
+					  <Blueprint MaterialName="Weapon Plaque" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, First Level: Shelves">
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, First Level: Miscellaneous">
+					  <Blueprint MaterialName="Blacksmith Anvil" />
+					  <Blueprint MaterialName="Mounted Elk Antlers" />
+					  <Blueprint MaterialName="Mounted Slaughterfish" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, Second Level: Containers">
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Display Case and Small Wardrobe" />
+					  <Blueprint MaterialName="Dresser" />
+					  <Blueprint MaterialName="End Tables (2)" />
+					  <Blueprint MaterialName="Tall Wardrobe" />
+					  <Blueprint MaterialName="Tall Wardrobe" />
+					  <Blueprint MaterialName="Chest, Long" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, Second Level: Furniture">
+					  <Blueprint MaterialName="Chair" />
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Double Bed" />
+					  <Blueprint MaterialName="Single Bed" />
+					  <Blueprint MaterialName="Single Bed" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, Second Level: Weapon Racks">
+					  <Blueprint MaterialName="Weapon Plaque" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, Second Level: Shelves">
+					  <Blueprint MaterialName="Display Case and Shelf" />
+					  <Blueprint MaterialName="Tall Bookshelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Tall Shelf with Display Case" />
+					  <Blueprint MaterialName="Wall Shelves (3)" />
+					  <Blueprint MaterialName="Wall Shelves (4)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="North Room, Second Level: Miscellaneous">
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Mounted Elk Head" />
+					  <Blueprint MaterialName="Mounted Snowy Sabre Cat Head" />
+					  <Blueprint MaterialName="Mounted Wolf Head" />
+					  <Blueprint MaterialName="Mounted Wolf Head" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Cellar: Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="End Table" />
+					  <Blueprint MaterialName="End Table" />
+					  <Blueprint MaterialName="Safe (5)" />
+					  <Blueprint MaterialName="Safe (5)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Cellar: Furniture">
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Square Table and Chairs" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+					  <Blueprint MaterialName="Coffin (available only for Vampires)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Cellar: Weapon Racks">
+					  <Blueprint MaterialName="Armor Mannequin" />
+					  <Blueprint MaterialName="Weapon Plaque" />
+					  <Blueprint MaterialName="Weapon Plaque" />
+					  <Blueprint MaterialName="Weapon Racks (5)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Cellar: Shelves">
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (3)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Cellar: Miscellaneous">
+					  <Blueprint MaterialName="Archery Target" />
+					  <Blueprint MaterialName="Armorer Workbench" />
+					  <Blueprint MaterialName="Blacksmith's Forge" />
+					  <Blueprint MaterialName="Child's Practice Dummy" />
+					  <Blueprint MaterialName="Grindstone" />
+					  <Blueprint MaterialName="Mead Barrels (2)" />
+					  <Blueprint MaterialName="Mounted Bear Head" />
+					  <Blueprint MaterialName="Mounted Bear Head" />
+					  <Blueprint MaterialName="Mounted Elk Antlers" />
+					  <Blueprint MaterialName="Mounted Elk Head" />
+					  <Blueprint MaterialName="Mounted Snowy Sabre Cat Head" />
+					  <Blueprint MaterialName="Shrine Base" />
+					  <Blueprint MaterialName="Smelter" />
+					  <Blueprint MaterialName="Tanning Rack" />
+					  <Blueprint MaterialName="Wall Sconce" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Shrine of Akatosh" />
+					  <Blueprint MaterialName="Shrine of Arkay" />
+					  <Blueprint MaterialName="Shrine of Dibella" />
+					  <Blueprint MaterialName="Shrine of Julianos" />
+					  <Blueprint MaterialName="Shrine of Kynareth" />
+					  <Blueprint MaterialName="Shrine of Mara" />
+					  <Blueprint MaterialName="Shrine of Stendar" />
+					  <Blueprint MaterialName="Shrine of Talos" />
+					  <Blueprint MaterialName="Shrine of Zenithar" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Aquarium: Containers">
+					  <Blueprint MaterialName="Fishing Supplies" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Aquarium: Furniture">
+					  <Blueprint MaterialName="Large Fish Tank" />
+					  <Blueprint MaterialName="Large Fish Tanks (2) A" />
+					  <Blueprint MaterialName="Large Fish Tanks (2) B" />
+					  <Blueprint MaterialName="Small Fish Tanks (2)" />
+					  <Blueprint MaterialName="Small Fish Tanks (2)" />
+					  <Blueprint MaterialName="Small Fish Tanks (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Aquarium: Misc">
+					  <Blueprint MaterialName="Fish Plaques (3)" />
+					  <Blueprint MaterialName="Fish Plaques (3)" />
+					  <Blueprint MaterialName="Fish Plaques (3)" />
+					  <Blueprint MaterialName="Mounted Mudcrab" />
+					  <Blueprint MaterialName="Wall Sconce (2)" />
+					  <Blueprint MaterialName="Wall Sconce (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+	  </WingBlueprint>
+	  <WingBlueprint Direction="West">
+		  <RoomBlueprint Name="Not used" />
+		  <RoomBlueprint Name="Enchanter's Tower" MaterialName="Tower">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="End Table" />
+					  <Blueprint MaterialName="Chest" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Tall Shelf (Actually a large Display Case)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Weapon Racks">
+					  <Blueprint MaterialName="Armor Mannequin" />
+					  <Blueprint MaterialName="Weapon Plaque" />
+					  <Blueprint MaterialName="Weapon Racks (3)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelf" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Chair" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Arcane Enchanter" />
+					  <Blueprint MaterialName="Brazier" />
+					  <Blueprint MaterialName="Brazier" />
+					  <Blueprint MaterialName="Mounted Goat Head" />
+					  <Blueprint MaterialName="Wall Sconce" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Greenhouse" MaterialName="Room">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Display Case and Cupboard" />
+					  <Blueprint MaterialName="Display Case and Cupboard" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Display Case" />
+					  <Blueprint MaterialName="Night Tables (2)" />
+					  <Blueprint MaterialName="Night Tables (2)" />
+					  <Blueprint MaterialName="Tall Shelf (Actually a large Display Case)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Wall Shelves (4)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Large Planter" />
+					  <Blueprint MaterialName="Large Planter" />
+					  <Blueprint MaterialName="Large Planter" />
+					  <Blueprint MaterialName="Mounted Goat Head" />
+					  <Blueprint MaterialName="Mounted Goat Head" />
+					  <Blueprint MaterialName="Mounted Mudcrab" />
+					  <Blueprint MaterialName="Mounted Mudcrab" />
+					  <Blueprint MaterialName="Small Planter with Cupboard" />
+					  <Blueprint MaterialName="Small Planter with Cupboard" />
+					  <Blueprint MaterialName="Small Planter with Cupboard" />
+					  <Blueprint MaterialName="Small Planter with Cupboard" />
+					  <Blueprint MaterialName="Small Planter with Cupboard" />
+					  <Blueprint MaterialName="Small Planter with Cupboard" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Bedrooms" MaterialName="Terrace Room">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Display Case and Small Wardrobe" />
+					  <Blueprint MaterialName="Safe" />
+					  <Blueprint MaterialName="Tall Wardrobe" />
+					  <Blueprint MaterialName="Wardrobe, small" />
+					  <Blueprint MaterialName="Wardrobe, small" />
+					  <Blueprint MaterialName="Chest, Long" />
+					  <Blueprint MaterialName="Child's Chest" />
+					  <Blueprint MaterialName="Child's Chest" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Chair" />
+					  <Blueprint MaterialName="Child's Bed" />
+					  <Blueprint MaterialName="Child's Bed" />
+					  <Blueprint MaterialName="Double Bed" />
+					  <Blueprint MaterialName="Square Table and Chairs" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Weapon Racks">
+					  <Blueprint MaterialName="Weapon Plaque" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Display Case and Shelf" />
+					  <Blueprint MaterialName="Small Shelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Round Table and Chairs" />
+					  <Blueprint MaterialName="Table with Benches" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Mounted Bear Head" />
+					  <Blueprint MaterialName="Mounted Mudcrab" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+	  </WingBlueprint>
+	  <WingBlueprint Direction="North">
+		  <RoomBlueprint Name="Not used" />
+		  <RoomBlueprint Name="Alchemy Laboratory" MaterialName="Tower">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Display Case and Small Wardrobe" />
+					  <Blueprint MaterialName="Display Case and Small Wardrobe" />
+					  <Blueprint MaterialName="End Table" />
+					  <Blueprint MaterialName="End Table (2)" />
+					  <Blueprint MaterialName="Safe" />
+					  <Blueprint MaterialName="Safe" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Small Shelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Chest" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Alchemy Lab" />
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Mounted Mudcrab" />
+					  <Blueprint MaterialName="Wall Sconce" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Trophy Room" MaterialName="Room">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Night Table" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Display Case and Shelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Mounted Goat Head" />
+					  <Blueprint MaterialName="Mounted Horker Head" />
+					  <Blueprint MaterialName="Trophy Base, Large" />
+					  <Blueprint MaterialName="Trophy Base, Large" />
+					  <Blueprint MaterialName="Trophy Base, Large" />
+					  <Blueprint MaterialName="Trophy Base, Small" />
+					  <Blueprint MaterialName="Trophy Base, Small" />
+					  <Blueprint MaterialName="Trophy Base, Small" />
+					  <Blueprint MaterialName="Trophy Base, Small" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Storage room" MaterialName="Terrace Room">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Display Case and Small Wardrobe" />
+					  <Blueprint MaterialName="Dresser" />
+					  <Blueprint MaterialName="End Table" />
+					  <Blueprint MaterialName="End Table" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Safe" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Large Table with Chest" />
+					  <Blueprint MaterialName="Table with Display Cases" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Display Case and Shelf" />
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+					  <Blueprint MaterialName="Wall Shelves (2)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Round Table and Chairs" />
+					  <Blueprint MaterialName="Table with Benches" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Mounted Goat Head" />
+					  <Blueprint MaterialName="Mounted Mudcrab" />
+					  <Blueprint MaterialName="Mounted Wolf Head" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+	  </WingBlueprint>
+	  <WingBlueprint Direction="East">
+		  <RoomBlueprint Name="Not used" />
+		  <RoomBlueprint Name="Library" MaterialName="Tower">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Chest" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Chair" />
+					  <Blueprint MaterialName="Night Table" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Bookshelf" />
+					  <Blueprint MaterialName="Bookshelf" />
+					  <Blueprint MaterialName="Bookshelf" />
+					  <Blueprint MaterialName="Bookshelf" />
+					  <Blueprint MaterialName="Corner Shelf" />
+					  <Blueprint MaterialName="Tall Bookshelf" />
+					  <Blueprint MaterialName="Tall Bookshelf" />
+					  <Blueprint MaterialName="Tall Bookshelf" />
+					  <Blueprint MaterialName="Tall Bookshelf" />
+					  <Blueprint MaterialName="Tall Bookshelf" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Chest" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Lamp Stand" />
+					  <Blueprint MaterialName="Wall Sconce" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Kitchen" MaterialName="Room">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Barrels" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Cupboard" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Low Table" />
+					  <Blueprint MaterialName="Round Table" />
+					  <Blueprint MaterialName="Square Table and Chairs" />
+					  <Blueprint MaterialName="Square Table and Chairs" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Shelves">
+					  <Blueprint MaterialName="Tall Shelf" />
+					  <Blueprint MaterialName="Wall Shelf" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Chandelier, Small" />
+					  <Blueprint MaterialName="Fire place" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Hanging Rack" />
+					  <Blueprint MaterialName="Mounted Elk Antlers" />
+					  <Blueprint MaterialName="Oven" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Mounted Horker Head" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+		  <RoomBlueprint Name="Armory" MaterialName="Terrace Room">
+			  <Interior>
+				  <BlueprintGroup Name="Containers">
+					  <Blueprint MaterialName="Chest" />
+					  <Blueprint MaterialName="Cupboard" />
+					  <Blueprint MaterialName="Display Case and Cupboard" />
+					  <Blueprint MaterialName="Display Case and Cupboard" />
+					  <Blueprint MaterialName="Dresser" />
+					  <Blueprint MaterialName="Dresser" />
+					  <Blueprint MaterialName="Chest" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Furniture">
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Display Case on Low Table" />
+					  <Blueprint MaterialName="Round Table" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Weapon Racks">
+					  <Blueprint MaterialName="Armor Mannequin with Cupboard" />
+					  <Blueprint MaterialName="Armor Mannequin with Cupboard" />
+					  <Blueprint MaterialName="Armor Mannequin with Cupboard" />
+					  <Blueprint MaterialName="Armor Mannequin with Cupboard" />
+					  <Blueprint MaterialName="Armor Mannequin with Cupboard" />
+					  <Blueprint MaterialName="Weapon Plaque" />
+					  <Blueprint MaterialName="Weapon Plaque" />
+					  <Blueprint MaterialName="Weaopn Racks (4)" />
+					  <Blueprint MaterialName="Weaopn Racks (4)" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Exterior">
+					  <Blueprint MaterialName="Archery Targets (2)" />
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Bench" />
+					  <Blueprint MaterialName="Round Table and Chairs" />
+					  <Blueprint MaterialName="Square Table" />
+					  <Blueprint MaterialName="Tanning Rack" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Washbasin on Stand" />
+				  </BlueprintGroup>
+				  <BlueprintGroup Name="Miscellaneous">
+					  <Blueprint MaterialName="Armorer Workbench" />
+					  <Blueprint MaterialName="Grindstone" />
+					  <Blueprint MaterialName="Lamp Stand" />
+					  <Blueprint MaterialName="Lamp Stand" />
+					  <Blueprint MaterialName="Mounted Bear Head" />
+					  <Blueprint MaterialName="Mounted Horker Head" />
+					  <Blueprint MaterialName="Mounted Sabre Cat Head" />
+					  <Blueprint MaterialName="Mounted Wolf Head" />
+					  <Blueprint MaterialName="Tanning Rack" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+					  <Blueprint MaterialName="Wall Sconces (2)" />
+				  </BlueprintGroup>
+			  </Interior>
+		  </RoomBlueprint>
+	  </WingBlueprint>
+  </Wings>
+  <ExteriorParts>
+	  <ExteriorBlueprint MaterialName="Animal Pen" />
+	  <ExteriorBlueprint MaterialName="Apiary" ExclusiveLocation="Lake view" />
+	  <ExteriorBlueprint MaterialName="Armorer Workbench" />
+	  <ExteriorBlueprint MaterialName="Fish Hatchery" ExclusiveLocation="Windstad" />
+	  <ExteriorBlueprint MaterialName="Garden" />
+	  <ExteriorBlueprint MaterialName="Grindstone" />
+	  <ExteriorBlueprint MaterialName="Mill" ExclusiveLocation="Heljarchen" />
+	  <ExteriorBlueprint MaterialName="Smelter" />
+	  <ExteriorBlueprint MaterialName="Stable" />
+  </ExteriorParts>
+</HouseBlueprint>

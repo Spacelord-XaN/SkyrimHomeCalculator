@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="SkyrimHomeCalculator.View.MaterialListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DataGrid ItemsSource="{Binding}" AutoGenerateColumns="False">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+            <DataGridTextColumn Header="Count" Binding="{Binding Value}" />
+            <!--<DataGridTextColumn Header="Estimated price" Binding="{Binding Price}" />-->
+        </DataGrid.Columns>
+    </DataGrid>
+</UserControl>

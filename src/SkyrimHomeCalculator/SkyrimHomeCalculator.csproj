@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58ABF6FC-B1B2-4D7E-8188-00F032D5CD0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkyrimHomeCalculator</RootNamespace>
+    <AssemblyName>SkyrimHomeCalculator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Data\Database.cs" />
+    <Compile Include="Logic\MaterialCalculator.cs" />
+    <Compile Include="Model\CompoundMaterial.cs" />
+    <Compile Include="Model\ExtensionMethods.cs" />
+    <Compile Include="Model\ExteriorBlueprint.cs" />
+    <Compile Include="Model\RoomBlueprint.cs" />
+    <Compile Include="Model\WingBlueprint.cs" />
+    <Compile Include="Model\HouseBlueprint.cs" />
+    <Compile Include="Model\HouseConfiguration.cs" />
+    <Compile Include="Model\BlueprintGroup.cs" />
+    <Compile Include="Model\MaterialCollection.cs" />
+    <Compile Include="Model\MaterialUsage.cs" />
+    <Compile Include="Model\MaterialType.cs" />
+    <Compile Include="Model\RawMaterial.cs" />
+    <Compile Include="Model\RoomConfiguration.cs" />
+    <Compile Include="Model\Blueprint.cs" />
+    <Compile Include="Model\WingConfiguration.cs" />
+    <Compile Include="ViewModel\ConfigurationViewModel.cs" />
+    <Compile Include="ViewModel\ExteriorListViewModel.cs" />
+    <Compile Include="ViewModel\ExteriorViewModel.cs" />
+    <Compile Include="ViewModel\HouseViewModel.cs" />
+    <Compile Include="ViewModel\InteriorGroupViewModel.cs" />
+    <Compile Include="ViewModel\InteriorListViewModel.cs" />
+    <Compile Include="ViewModel\InteriorViewModel.cs" />
+    <Compile Include="ViewModel\MaterialsViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\MaterialListViewModel.cs" />
+    <Compile Include="ViewModel\PartViewModel.cs" />
+    <Compile Include="ViewModel\StepViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="ViewModel\WingListViewModel.cs" />
+    <Compile Include="ViewModel\WingViewModel.cs" />
+    <Compile Include="View\ExteriorListView.xaml.cs">
+      <DependentUpon>ExteriorListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HouseView.xaml.cs">
+      <DependentUpon>HouseView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\InteriorListView.xaml.cs">
+      <DependentUpon>InteriorListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainView.xaml.cs">
+      <DependentUpon>MainView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MaterialsView.xaml.cs">
+      <DependentUpon>MaterialsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MaterialListView.xaml.cs">
+      <DependentUpon>MaterialListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WingListView.xaml.cs">
+      <DependentUpon>WingListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WingView.xaml.cs">
+      <DependentUpon>WingView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\ExteriorListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HouseView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\InteriorListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MaterialsView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\MaterialListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WingListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WingView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="app.config" />
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HouseBlueprint.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MaterialCollection.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

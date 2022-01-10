@@ -1,0 +1,12 @@
+﻿<Window x:Class="SkyrimHomeCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:view="clr-namespace:SkyrimHomeCalculator.View"
+        xmlns:viewModel="clr-namespace:SkyrimHomeCalculator.ViewModel"
+        Title="Skyrim house calculator">
+    <Window.Resources>
+        <viewModel:MainViewModel x:Key="MainViewModel" />
+    </Window.Resources>
+
+    <view:MainView DataContext="{StaticResource MainViewModel}" />
+</Window>

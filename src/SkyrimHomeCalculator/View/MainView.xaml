@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="SkyrimHomeCalculator.View.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:view="clr-namespace:SkyrimHomeCalculator.View">
+    <TabControl>
+        <TabItem Header="House configuration">
+            <view:HouseView DataContext="{Binding House}" />
+        </TabItem>
+        <TabItem Header="Materials">
+            <view:MaterialsView DataContext="{Binding Materials}" />
+        </TabItem>
+    </TabControl>
+</UserControl>
