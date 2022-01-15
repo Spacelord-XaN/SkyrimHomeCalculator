@@ -32,8 +32,6 @@ namespace SkyrimHomeCalculator.Data
             {
                 var xmlSerializer = new XmlSerializer(typeof(T));
                 xmlSerializer.Serialize(xmlWriter, instance);
-                fileStream.Flush();
-                fileStream.Close();
             }
         }
     }
