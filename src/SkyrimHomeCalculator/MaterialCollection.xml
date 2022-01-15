@@ -1,6 +1,5 @@
-<?xml version="1.0"?>
-<MaterialCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MaterialCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <RawMaterials>
     <RawMaterial Name="Amulet of Akatosh" />
     <RawMaterial Name="Amulet of Arkay" />
@@ -13,37 +12,36 @@
     <RawMaterial Name="Amulet of Zenithar" />
     <RawMaterial Name="Bear Pelt" />
     <RawMaterial Name="Clay" />
-    <RawMaterial Name="Corundum ore" />
+    <RawMaterial Name="Corundum Ore" />
     <RawMaterial Name="Deer Hide" />
     <RawMaterial Name="Dragon Bone" />
     <RawMaterial Name="Dragon Scales" />
-    <RawMaterial Name="Ebony Ingot" />
+    <RawMaterial Name="Ebony Ore" />
     <RawMaterial Name="Flawless Amethyst" />
     <RawMaterial Name="Flawless Sapphire" />
     <RawMaterial Name="Glass" />
     <RawMaterial Name="Goat Hide" />
     <RawMaterial Name="Goat Horns" />
-    <RawMaterial Name="Gold Ingot" />
+    <RawMaterial Name="Gold Ore" />
     <RawMaterial Name="Grand Soul Gem (filled with grand soul)" />
     <RawMaterial Name="Horker Tusk" />
-    <RawMaterial Name="Iron ore" />
+    <RawMaterial Name="Iron Ore" />
     <RawMaterial Name="Large Antlers" />
-    <RawMaterial Name="Leather Strips" />
+    <RawMaterial Name="Leather" />
+    <RawMaterial Name="Malachite Ore" />
+    <RawMaterial Name="Moonstone Ore" />
     <RawMaterial Name="Mudcrab Chitin" />
     <RawMaterial Name="Mudcrab Chitin" />
     <RawMaterial Name="Not used" />
-    <RawMaterial Name="Orichalcum Ingot" />
+    <RawMaterial Name="Orichalcum Ore" />
     <RawMaterial Name="Quarried Stone" />
-    <RawMaterial Name="Quicksilver Ingot" />
-    <RawMaterial Name="Refined Malachite" />
-    <RawMaterial Name="Refined Moonstone" />
+    <RawMaterial Name="Quicksilver Ore" />
     <RawMaterial Name="Sabre Cat Pelt" />
     <RawMaterial Name="Sabre Cat Snow Pelt" />
     <RawMaterial Name="Sabre Cat Tooth" />
     <RawMaterial Name="Sawn Log" />
-    <RawMaterial Name="Silver Ingot" />
+    <RawMaterial Name="Silver Ore" />
     <RawMaterial Name="Slaughterfish Scales" />
-    <RawMaterial Name="Steel Ingot" />
     <RawMaterial Name="Straw" />
     <RawMaterial Name="Vampire Dust" />
     <RawMaterial Name="Wolf Pelt" />
@@ -60,7 +58,7 @@
     </CompoundMaterial>
     <CompoundMaterial Name="Corundum Ingot" Type="Base">
       <UsedMaterials>
-        <MaterialUsage MaterialName="Corundum ore" Amount="2" />
+        <MaterialUsage MaterialName="Corundum Ore" Amount="2" />
       </UsedMaterials>
     </CompoundMaterial>
     <CompoundMaterial Name="Door" Type="Base">
@@ -70,6 +68,16 @@
         <MaterialUsage MaterialName="Lock" Amount="1" />
         <MaterialUsage MaterialName="Nails" Amount="2" />
         <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Ebony Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Ebony Ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Gold Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Gold Ore" Amount="2" />
       </UsedMaterials>
     </CompoundMaterial>
     <CompoundMaterial Name="Hinge" Type="Base">
@@ -84,7 +92,12 @@
     </CompoundMaterial>
     <CompoundMaterial Name="Iron Ingot" Type="Base">
       <UsedMaterials>
-        <MaterialUsage MaterialName="Iron ore" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ore" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Leather Strips" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Leather" Amount="0.25" />
       </UsedMaterials>
     </CompoundMaterial>
     <CompoundMaterial Name="Lock" Type="Base">
@@ -98,8 +111,38 @@
         <MaterialUsage MaterialName="Iron Ingot" Amount="0.1" />
       </UsedMaterials>
     </CompoundMaterial>
-
-    <!--Construction-->
+    <CompoundMaterial Name="Orichalcum Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Orichalcum Ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Quicksilver Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Quicksilver Ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Refined Malachite" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Malachite Ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Refined Moonstone" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Moonstone Ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Silver Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Silver Ore" Amount="2" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Steel Ingot" Type="Base">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Corundum Ore" Amount="1" />
+        <MaterialUsage MaterialName="Iron Ore" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+	<!--Construction-->
     <CompoundMaterial Name="Main Hall" Type="Construction">
       <UsedMaterials>
         <MaterialUsage MaterialName="Main Hall - Stage 1: Door" Amount="1" />
@@ -113,51 +156,6 @@
         <MaterialUsage MaterialName="Main Hall - Stage 9: Roof" Amount="1" />
         <MaterialUsage MaterialName="Main Hall - Stage 10: Cellar" Amount="1" />
         <MaterialUsage MaterialName="Main Hall - Stage 11: Aquarium" Amount="1" />
-      </UsedMaterials>
-    </CompoundMaterial>
-    <CompoundMaterial Name="Room" Type="Construction">
-      <UsedMaterials>
-        <MaterialUsage MaterialName="Room - Stage 1: Doors" Amount="1" />
-        <MaterialUsage MaterialName="Room - Stage 2: Foundation" Amount="1" />
-        <MaterialUsage MaterialName="Room - Stage 3: Floor" Amount="1" />
-        <MaterialUsage MaterialName="Room - Stage 4: Wall Supports" Amount="1" />
-        <MaterialUsage MaterialName="Room - Stage 5: Roof Framing" Amount="1" />
-        <MaterialUsage MaterialName="Room - Stage 6: Walls" Amount="1" />
-        <MaterialUsage MaterialName="Room - Stage 7: Roof" Amount="1" />
-      </UsedMaterials>
-    </CompoundMaterial>
-    <CompoundMaterial Name="Small House" Type="Construction">
-      <UsedMaterials>
-        <MaterialUsage MaterialName="Small House - Stage 1: Foundation" Amount="1" />
-        <MaterialUsage MaterialName="Small House - Stage 2: Wall Framing" Amount="1" />
-        <MaterialUsage MaterialName="Small House - Stage 3: Walls" Amount="1" />
-        <MaterialUsage MaterialName="Small House - Stage 4: Floor" Amount="1" />
-        <MaterialUsage MaterialName="Small House - Stage 5: Roof Framing" Amount="1" />
-        <MaterialUsage MaterialName="Small House - Stage 6: Roof" Amount="1" />
-        <MaterialUsage MaterialName="Small House - Stage 7: Door" Amount="1" />
-      </UsedMaterials>
-    </CompoundMaterial>
-    <CompoundMaterial Name="Terrace Room" Type="Construction">
-      <UsedMaterials>
-        <MaterialUsage MaterialName="Terrace Room - Stage 1: Doors" Amount="1" />
-        <MaterialUsage MaterialName="Terrace Room - Stage 2: Foundation" Amount="1" />
-        <MaterialUsage MaterialName="Terrace Room - Stage 3: Floor" Amount="1" />
-        <MaterialUsage MaterialName="Terrace Room - Stage 4: Wall Supports" Amount="1" />
-        <MaterialUsage MaterialName="Terrace Room - Stage 5: Roof" Amount="1" />
-        <MaterialUsage MaterialName="Terrace Room - Stage 6: Walls" Amount="1" />
-      </UsedMaterials>
-    </CompoundMaterial>
-    <CompoundMaterial Name="Tower" Type="Construction">
-      <UsedMaterials>
-        <MaterialUsage MaterialName="Tower - Stage: 1 Door" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 2 Foundation" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 3 Floor" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 4 Main Supports" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 5 First Floor Walls" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 6 Second Floor Supports" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 7 Second Floor Walls" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 8 Roof" Amount="1" />
-        <MaterialUsage MaterialName="Tower - Stage: 9 Roof Canopy" Amount="1" />
       </UsedMaterials>
     </CompoundMaterial>
     <CompoundMaterial Name="Main Hall - Stage 1: Door" Type="Construction">
@@ -229,6 +227,17 @@
         <MaterialUsage MaterialName="Sawn Log" Amount="2" />
       </UsedMaterials>
     </CompoundMaterial>
+    <CompoundMaterial Name="Room" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Room - Stage 1: Doors" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 2: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 3: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 4: Wall Supports" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 5: Roof Framing" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 6: Walls" Amount="1" />
+        <MaterialUsage MaterialName="Room - Stage 7: Roof" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
     <CompoundMaterial Name="Room - Stage 1: Doors" Type="Construction">
       <UsedMaterials>
         <MaterialUsage MaterialName="Iron Fittings" Amount="2" />
@@ -270,6 +279,17 @@
       <UsedMaterials>
         <MaterialUsage MaterialName="Nails" Amount="8" />
         <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Small House" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Small House - Stage 1: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 2: Wall Framing" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 3: Walls" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 4: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 5: Roof Framing" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 6: Roof" Amount="1" />
+        <MaterialUsage MaterialName="Small House - Stage 7: Door" Amount="1" />
       </UsedMaterials>
     </CompoundMaterial>
     <CompoundMaterial Name="Small House - Stage 1: Foundation" Type="Construction">
@@ -316,6 +336,16 @@
         <MaterialUsage MaterialName="Nails" Amount="2" />
       </UsedMaterials>
     </CompoundMaterial>
+    <CompoundMaterial Name="Terrace Room" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Terrace Room - Stage 1: Doors" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 2: Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 3: Floor" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 4: Wall Supports" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 5: Roof" Amount="1" />
+        <MaterialUsage MaterialName="Terrace Room - Stage 6: Walls" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
     <CompoundMaterial Name="Terrace Room - Stage 1: Doors" Type="Construction">
       <UsedMaterials>
         <MaterialUsage MaterialName="Iron Fittings" Amount="3" />
@@ -352,6 +382,19 @@
       <UsedMaterials>
         <MaterialUsage MaterialName="Clay" Amount="3" />
         <MaterialUsage MaterialName="Sawn Log" Amount="1" />
+      </UsedMaterials>
+    </CompoundMaterial>
+    <CompoundMaterial Name="Tower" Type="Construction">
+      <UsedMaterials>
+        <MaterialUsage MaterialName="Tower - Stage: 1 Door" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 2 Foundation" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 3 Floor" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 4 Main Supports" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 5 First Floor Walls" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 6 Second Floor Supports" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 7 Second Floor Walls" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 8 Roof" Amount="1" />
+        <MaterialUsage MaterialName="Tower - Stage: 9 Roof Canopy" Amount="1" />
       </UsedMaterials>
     </CompoundMaterial>
     <CompoundMaterial Name="Tower - Stage: 1 Door" Type="Construction">
@@ -410,7 +453,6 @@
         <MaterialUsage MaterialName="Nails" Amount="6" />
       </UsedMaterials>
     </CompoundMaterial>
-
     <!--Exteroir-->
     <CompoundMaterial Name="Animal Pen" Type="Exteroir">
       <UsedMaterials>
@@ -471,7 +513,6 @@
         <MaterialUsage MaterialName="Nails" Amount="5" />
       </UsedMaterials>
     </CompoundMaterial>
-
     <!--Interior-->
     <CompoundMaterial Name="Alchemy Lab" Type="Interior">
       <UsedMaterials>
